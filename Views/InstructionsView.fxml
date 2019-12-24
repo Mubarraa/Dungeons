@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="240.0" layoutY="325.0" mnemonicParsing="false" onAction="#backToMenu" text="BACK TO MENU" />
+      <TextArea layoutX="22.0" layoutY="90.0" prefHeight="200.0" prefWidth="556.0" text="                                     Instructions&#10;&#10;Press &quot;Enter&quot; during gameplay to view goals and collected items.&#10;Player has to complete given goals to complete the game.&#10;Collide with collectables such as treasure, key, sword, and potion to collect them.&#10;Eliminate enemies by :&#10;&gt; Running enemy over with boulder &#10;&gt; Colliding with enemy while carrying a sword or gaining invincibility &#10;by colliding with a potion (lasts for 10 steps).&#10;Colliding with an enemy without the above will eliminate the player.&#10;">
+         <font>
+            <Font name="Baekmuk Gulim" size="13.0" />
+         </font></TextArea>
+   </children>
+</Pane>
